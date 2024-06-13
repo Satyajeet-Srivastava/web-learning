@@ -77,5 +77,22 @@ console.log(bmi);
 
 //begennier complete 
 // intermediate js start 
+// use of random number
+prompt("what is your name :-")
+prompt("what is your crush name :- ")
+var n =Math.random();
+n=n*100
+n=Math.floor(n)+1
+console.log ("your love percentage is "+n);
+// then thee is if else statemant 
 
+if (n===100){
+  console.log ("you are perfect match");
+}
+else if (n>=80){
+  console.log ("you are match");
+}
+else {
+  console.log ("you are not match");
 
+}
